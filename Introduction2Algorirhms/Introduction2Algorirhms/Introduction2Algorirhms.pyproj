@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="InsertionSort.py" />
     <Compile Include="Introduction2Algorirhms.py" />
+    <Compile Include="merge_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
