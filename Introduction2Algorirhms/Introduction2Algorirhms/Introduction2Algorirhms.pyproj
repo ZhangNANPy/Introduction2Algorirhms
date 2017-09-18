@@ -22,12 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="heapSort.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="InsertionSort.py" />
     <Compile Include="Introduction2Algorirhms.py" />
     <Compile Include="maxSubarray.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="merge_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="quickSort.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

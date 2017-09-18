@@ -33,7 +33,7 @@ def maxSubarray(l, low, high):
         else:
             return (cl, ch, cs)
 
-def maxSubarrayline(l, n):
+def maxSubarrayLine(l, n):
     sum = -sys.maxsize
     temp = -sys.maxsize
     for i in range(n):
@@ -53,4 +53,4 @@ def maxSubarrayline(l, n):
 if __name__ == '__main__':
     a = [1,-3,5,-2,6,-44,7,-3]
     print(maxSubarray(a, 0, len(a)))
-    print(maxSubarrayline(a, len(a)))
+    print(maxSubarrayLine(a, len(a)))
