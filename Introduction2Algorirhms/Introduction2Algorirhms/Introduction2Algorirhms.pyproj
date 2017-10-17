@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bucketSort.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="countingSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FibonacciSequence.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="heapSort.py">
@@ -37,6 +43,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="quickSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="randomizedSelect.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
