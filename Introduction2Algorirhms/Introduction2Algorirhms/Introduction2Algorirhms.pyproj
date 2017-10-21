@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="boolKnapsack.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="bucketSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="coins.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="countingSort.py">
@@ -36,6 +42,9 @@
     </Compile>
     <Compile Include="InsertionSort.py" />
     <Compile Include="Introduction2Algorirhms.py" />
+    <Compile Include="matrixDot.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="maxSubarray.py">
       <SubType>Code</SubType>
     </Compile>
