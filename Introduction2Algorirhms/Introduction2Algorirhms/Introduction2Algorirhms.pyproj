@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="appleBoard.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="boolKnapsack.py">
       <SubType>Code</SubType>
     </Compile>
